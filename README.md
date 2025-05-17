@@ -89,7 +89,7 @@ O "Reporta Aí" oferece duas formas principais de interação para o usuário no
     * **Sair (Opção 7):** Encerra a interação.
 
 2.  **Processamento pelos Agentes de IA (Opções 1-5):** Ao selecionar uma das opções de reporte (1-5), o seguinte fluxo é executado:
-    * O **Agente Classificador** recebe o link da imagem e a descrição (se houver) e tenta identificar o tipo de problema e o órgão responsável. O resultado da classificação é exibido no Colab.
+    * O **Agente Classificador** recebe o link da imagem e a descrição (se houver) e tenta identificar o tipo de problema e o responsável. O resultado da classificação é exibido no Colab.
     * O **Agente Buscador** utiliza a localização fornecida e o responsável identificado para pesquisar informações de contato (e-mail e telefone) do órgão responsável através da Google Search. Os resultados da busca (e-mail, telefone, cidade) são mostrados no Colab.
     * O usuário tem a opção de simular o envio de um e-mail para o contato encontrado através do **Agente Reporte\_Final**. O conteúdo simulado do e-mail é exibido no Colab.
     * O usuário também tem a opção de gerar uma sugestão de post para redes sociais através do **Agente Redator\_Redes\_Sociais**. O texto sugerido é exibido no Colab.
@@ -106,7 +106,7 @@ O "Reporta Aí" oferece duas formas principais de interação para o usuário no
 
 4.  **Tela de Enviado:** Simula a confirmação do envio do reporte. Exibe uma mensagem de sucesso e os detalhes do reporte (assunto, tipo de problema, descrição, localização, imagem de exemplo e informações de contato do responsável - dados fixos para simulação).
 
-**Observação:** É importante notar que a interface web (HTML, CSS e JavaScript) presente na célula 15 é uma simulação visual do que um futuro aplicativo poderia parecer. A lógica principal de processamento dos dados utilizando os Agentes de IA (classificação, busca, geração do reporte e sugestão de post) ocorre no backend, através da execução do código Python no Google Colaboratory. A interação via Colab demonstra a funcionalidade completa dos agentes, enquanto a interface web oferece uma visão da experiência do usuário em um aplicativo real.
+**Observação:** É importante notar que a interface web (HTML, CSS e JavaScript) presente na célula 15 é uma simulação visual do que um futuro aplicativo poderia parecer. A lógica principal de processamento dos dados utilizando os Agentes de IA (classificação, busca, etc.) não está implementada diretamente nesta interface e é simulada com dados fixos para demonstração visual. A funcionalidade completa dos Agentes de IA pode ser experimentada através da interação direta com o código Python na célula 14.
 
 ## 5. Como Executar o Protótipo:
 
@@ -167,3 +167,25 @@ O protótipo "Reporta Aí" demonstra o potencial da Inteligência Artificial na 
     * Garantir a privacidade dos dados dos usuários e o uso ético da Inteligência Artificial, evitando vieses nos modelos e garantindo a transparência do sistema.
 
 A manutenção e a adaptação do "Reporta Aí" exigirão um esforço contínuo de desenvolvimento, testes e coleta de feedback dos usuários. A flexibilidade da arquitetura baseada em Agentes de IA permitirá a incorporação de novas funcionalidades e o aprimoramento dos componentes existentes de forma modular e eficiente.
+
+## 7. Licença
+
+Este projeto está licenciado sob a licença Creative Commons Atribuição-NãoComercial-NãoDerivativos 4.0 Internacional (CC BY-NC-ND 4.0). Para visualizar uma cópia desta licença, visite [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+## 8. Contribuições
+
+Este projeto é distribuído sob a licença Creative Commons Atribuição-NãoComercial-NãoDerivativos 4.0 Internacional (CC BY-NC-ND 4.0), o que significa que, legalmente, terceiros não podem criar e distribuir versões modificadas deste código sem permissão.
+
+No entanto, se você tem ideias para melhorias, correções de bugs ou novas funcionalidades, ficaria muito feliz em receber suas sugestões e contribuições!
+
+**Como contribuir:**
+
+1.  **Abra uma Issue:** Se você encontrou um problema ou tem uma sugestão, por favor, abra uma nova Issue (na aba "Issues" do seu repositório GitHub) descrevendo detalhadamente o que você observou ou sua proposta. Isso permite que tenhamos uma discussão clara sobre o assunto.
+
+2.  **Envie suas Ideias e Sugestões:** Na Issue, explique sua ideia da forma mais clara possível. Se for uma correção de bug, descreva os passos para reproduzir o problema. Se for uma nova funcionalidade, explique como ela funcionaria e qual o benefício que traria.
+
+3.  **Possível Implementação (Você Implementa):** Atualmente, devido à licença Não Derivativos, a implementação direta de código por terceiros e a criação de Pull Requests não são permitidas para distribuição pública. No entanto, se sua sugestão for aceita e você tiver o conhecimento técnico, podemos discutir a possibilidade de você me fornecer o código da melhoria diretamente (por exemplo, via compartilhamento de trechos de código ou um repositório privado temporário). Eu então revisaria e incorporaria as mudanças ao projeto principal.
+
+4.  **Agradecimento:** Todas as contribuições valiosas, sejam elas ideias, sugestões ou código fornecido diretamente, serão devidamente reconhecidas.
+
+Agradeço desde já o seu interesse em contribuir para o "Reporta Aí"! Sua ajuda é muito valiosa para o crescimento deste projeto de cunho social.
