@@ -2,6 +2,8 @@
 
 O "Reporta Aí" é um protótipo de aplicativo cívico inovador que utiliza o poder da Inteligência Artificial para simplificar e otimizar o processo de reporte de problemas urbanos. Ao invés de depender apenas da entrada manual do usuário, o "Reporta Aí" emprega uma arquitetura sofisticada baseada em múltiplos Agentes de IA para analisar informações fornecidas (imagens e descrições), identificar automaticamente o tipo de problema e o órgão responsável, buscar informações de contato relevantes, gerar um relatório completo e, de forma inovadora, criar conteúdo estratégico para redes sociais. O objetivo é não apenas reportar o problema, mas também aumentar sua visibilidade e engajar a comunidade para uma resolução mais rápida.
 
+![Image](https://github.com/user-attachments/assets/6831657a-2eb9-4273-a79d-9a40754238ed)
+
 **Principais Funcionalidades:**
 
 * **Classificação Inteligente de Problemas:** Um Agente de IA analisa imagens e descrições fornecidas pelo usuário para classificar automaticamente o tipo de problema urbano (buraco, vazamento, poste caído, etc.) e identificar o órgão ou empresa responsável por sua solução.
